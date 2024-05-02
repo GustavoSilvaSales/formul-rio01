@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Formulário - clientes</title>
+</head>
+<body>
+        <div class="container">
+            <form action="cadastro.php" method="post">
+                <h1>Barbearia Salles</h1>
+                <p>Cadastro</p>
+                <div class="input-single">
+                    <input type="text" name="nome" id="nome-box" class="input"
+                    autocomplete="off" required>
+                    <label for="nome-box">Nome</label>
+                </div>
+                <div class="input-single">
+                    <input type="text" name="email" id="email-box" class="input"
+                    autocomplete="off" required>
+                    <label for="email-box">E-mail</label>
+                </div>
+                <div class="input-single">
+                    <input type="text" name="telefone" id="telefone-box" class="input"
+                    autocomplete="off" required>
+                    <label for="telefone-box">Telefone</label>
+                </div>
+                <div class="input-single">
+                    <input type="text" name="senha" id="senha-box" class="input"
+                    autocomplete="off" minlength="6" maxlength="15" required>
+                    <label for="senha-box">Senha</label>
+                </div>
+
+                <div class="btn"><input type="submit" value="Cadastrar-se"></div>
+            </form>
+        </div>
+</body>
+</html>
